@@ -11,7 +11,7 @@ export default function Header() {
 
       {/* Center heading */}
       <h1 className="absolute left-1/2 -translate-x-1/2 text-lg">
-        React Coding Scenarios - Using Latest React-19 Features
+        React Coding Challenges - Using Latest React-19 Features
       </h1>
     </div>
   );
