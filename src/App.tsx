@@ -4,6 +4,8 @@ import Home from "./components/home/Home";
 import Header from "./components/header/Header";
 import { lazy, Suspense } from "react";
 import StarRating from "./components/rating-system/RatingSystem";
+import ThrottleInfiniteScroll from "./components/throttle/InfiniteScroll";
+import ThrottleRepeatedClick from "./components/throttle/ThrottleRepeatedClick";
 
 const ProductList = lazy(() => import("./components/product-list/ProductList"));
 
@@ -22,6 +24,14 @@ function App() {
           }
         />
         <Route path="/rating" element={<StarRating />} />
+        <Route
+          path="/throttle/infiniteScroll"
+          element={<ThrottleInfiniteScroll />}
+        />
+        <Route
+          path="/throttle/repeatedClick"
+          element={<ThrottleRepeatedClick />}
+        />
       </Routes>
     </>
   );

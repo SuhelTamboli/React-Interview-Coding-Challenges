@@ -12,7 +12,11 @@ export default function NavigationItems() {
     },
     {
       name: "Throttle - To Prevent Multiple Api Calls During Infinite Scroll",
-      link: "/throttle",
+      link: "/throttle/infiniteScroll",
+    },
+    {
+      name: "Throttle - Button Click – Prevent Rapid Repeated Actions",
+      link: "/throttle/repeatedClick",
     },
   ];
   return (
