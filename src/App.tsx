@@ -6,6 +6,7 @@ import { lazy, Suspense } from "react";
 import StarRating from "./components/rating-system/RatingSystem";
 import ThrottleInfiniteScroll from "./components/throttle/InfiniteScroll";
 import ThrottleRepeatedClick from "./components/throttle/ThrottleRepeatedClick";
+import ReactMemoExample from "./components/react-memo/ReactMemoExample";
 
 const ProductList = lazy(() => import("./components/product-list/ProductList"));
 
@@ -32,6 +33,7 @@ function App() {
           path="/throttle/repeatedClick"
           element={<ThrottleRepeatedClick />}
         />
+        <Route path="/reactMemo" element={<ReactMemoExample />} />
       </Routes>
     </>
   );
