@@ -22,15 +22,20 @@ export default function NavigationItems() {
       name: "React.memo - to prevent child component re-render",
       link: "/reactMemo",
     },
+    {
+      name: "Error Boundary - to catch errors and give fallback component",
+      link: "/errorBoundary",
+    },
+    {
+      name: "Custom Hook - Autheticate user to access app",
+      link: "/authCustomHook",
+    },
+    {
+      name: "Custom Hook - Fetch Data on Component Mount",
+      link: "/fetchCustomHook",
+    },
     //TODO
-    // {
-    //   name: "Error Boundary - to catch errors and give fallback component",
-    //   link: "/errorBoundary",
-    // },
-    // {
-    //   name: "HOC vs custom hook conversion",
-    //   link: "/customHook",
-    // },
+
     // {
     //   name: "UI Components - Modal/Accordion/Dropdown",
     //   link: "/commonComponents",
