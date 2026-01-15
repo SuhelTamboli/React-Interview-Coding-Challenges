@@ -7,6 +7,9 @@ import StarRating from "./components/rating-system/RatingSystem";
 import ThrottleInfiniteScroll from "./components/throttle/InfiniteScroll";
 import ThrottleRepeatedClick from "./components/throttle/ThrottleRepeatedClick";
 import ReactMemoExample from "./components/react-memo/ReactMemoExample";
+import ErrorBoundaryExample from "./components/error-boundary/ErrorBoundaryExample";
+import AuthCustomHook from "./components/custom-hook/AuthHookExample";
+import FetchCustomHook from "./components/custom-hook/FetchCustomHook";
 
 const ProductList = lazy(() => import("./components/product-list/ProductList"));
 
@@ -34,6 +37,9 @@ function App() {
           element={<ThrottleRepeatedClick />}
         />
         <Route path="/reactMemo" element={<ReactMemoExample />} />
+        <Route path="/errorBoundary" element={<ErrorBoundaryExample />} />
+        <Route path="/authCustomHook" element={<AuthCustomHook />} />
+        <Route path="/fetchCustomHook" element={<FetchCustomHook />} />
       </Routes>
     </>
   );
