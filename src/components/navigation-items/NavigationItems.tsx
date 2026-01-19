@@ -34,6 +34,14 @@ export default function NavigationItems() {
       name: "Custom Hook - Fetch Data on Component Mount",
       link: "/fetchCustomHook",
     },
+    {
+      name: "Retry Failed API Request",
+      link: "/retryRequest",
+    },
+    {
+      name: "Cancel API request on component unmount",
+      link: "/cancelRequest",
+    },
     //TODO
 
     // {
@@ -42,7 +50,7 @@ export default function NavigationItems() {
     // },
 
     //TODO:
-    // 1.Retry failed API request
+    // 1.
     // 2.Cancel API request on unmount
     // 3.Pagination component
     // 4.Parallel API calls using Promise.all
@@ -53,7 +61,6 @@ export default function NavigationItems() {
     // 12.Build a search autocomplete
     // 13.Implement optimistic UI update
     // 14.Pagination + filtering table
-    // 15.Custom hooks
   ];
   return (
     <ul className="list-disc list-inside p-4">

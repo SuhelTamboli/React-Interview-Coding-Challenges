@@ -10,6 +10,8 @@ import ReactMemoExample from "./components/react-memo/ReactMemoExample";
 import ErrorBoundaryExample from "./components/error-boundary/ErrorBoundaryExample";
 import AuthCustomHook from "./components/custom-hook/AuthHookExample";
 import FetchCustomHook from "./components/custom-hook/FetchCustomHook";
+import RetryRequest from "./components/retry-request/RetryRequest";
+import CancelRequest from "./components/cancel-request/CancelRequest";
 
 const ProductList = lazy(() => import("./components/product-list/ProductList"));
 
@@ -40,6 +42,8 @@ function App() {
         <Route path="/errorBoundary" element={<ErrorBoundaryExample />} />
         <Route path="/authCustomHook" element={<AuthCustomHook />} />
         <Route path="/fetchCustomHook" element={<FetchCustomHook />} />
+        <Route path="/retryRequest" element={<RetryRequest />} />
+        <Route path="/cancelRequest" element={<CancelRequest />} />
       </Routes>
     </>
   );
