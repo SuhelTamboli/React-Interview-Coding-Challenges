@@ -42,24 +42,37 @@ export default function NavigationItems() {
       name: "Cancel API request on component unmount",
       link: "/cancelRequest",
     },
+    {
+      name: "Parallel API calls using Promise.all",
+      link: "/parallelRequest",
+    },
+    {
+      name: "Search autocomplete",
+      link: "/searchAutocomplete",
+    },
     //TODO
 
-    // {
-    //   name: "UI Components - Modal/Accordion/Dropdown",
-    //   link: "/commonComponents",
-    // },
+    {
+      name: "Image lazy loading",
+      link: "/imageLazyloading",
+    },
+    {
+      name: "Implement optimistic UI update",
+      link: "/optimisticUI",
+    },
+    {
+      name: "Dark / light theme toggle (Context API)",
+      link: "/themeToggle",
+    },
+    {
+      name: "UI Components - Modal/Accordion/Dropdown",
+      link: "/commonComponents",
+    },
 
     //TODO:
-    // 1.
-    // 2.Cancel API request on unmount
     // 3.Pagination component
-    // 4.Parallel API calls using Promise.all
     // 5.File upload with preview
-    // 6.Image lazy loading
     // 10.Build undo / redo feature
-    // 11.Dark / light theme toggle (Context API)
-    // 12.Build a search autocomplete
-    // 13.Implement optimistic UI update
     // 14.Pagination + filtering table
   ];
   return (
