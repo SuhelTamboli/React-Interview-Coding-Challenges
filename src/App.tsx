@@ -14,6 +14,8 @@ import RetryRequest from "./components/retry-request/RetryRequest";
 import CancelRequest from "./components/cancel-request/CancelRequest";
 import ParallelRequest from "./components/parallel-request/ParallelRequest";
 import SearchAutoComplete from "./components/search-autocomplete/SearchAutoComplete";
+import ImageLazyLoading from "./components/image-lazy-loading/ImageLazyLoading";
+import OptimisticLikeButton from "./components/optimistic-like-button/OptimisticLikeButton";
 
 const ProductList = lazy(() => import("./components/product-list/ProductList"));
 
@@ -55,6 +57,8 @@ function App() {
           }
         />
         <Route path="/searchAutocomplete" element={<SearchAutoComplete />} />
+        <Route path="/imageLazyloading" element={<ImageLazyLoading />} />
+        <Route path="/optimisticUI" element={<OptimisticLikeButton />} />
       </Routes>
     </>
   );
