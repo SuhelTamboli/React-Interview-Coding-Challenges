@@ -7,6 +7,18 @@ export default function NavigationItems() {
       link: "/products",
     },
     {
+      name: "Optimistic UI Update - using React-19 useOptimisic hook",
+      link: "/optimisticUI",
+    },
+    {
+      name: "Memoize complex calculation value using useMemo",
+      link: "/testUseMemo",
+    },
+    {
+      name: "Memoize function using useCallback",
+      link: "/testUseCallback",
+    },
+    {
       name: "Star Based Rating System",
       link: "/rating",
     },
@@ -50,16 +62,13 @@ export default function NavigationItems() {
       name: "Search autocomplete",
       link: "/searchAutocomplete",
     },
-    //TODO
-
     {
       name: "Image lazy loading",
       link: "/imageLazyloading",
     },
-    {
-      name: "Implement optimistic UI update",
-      link: "/optimisticUI",
-    },
+
+    //TODO
+
     {
       name: "Dark / light theme toggle (Context API)",
       link: "/themeToggle",
