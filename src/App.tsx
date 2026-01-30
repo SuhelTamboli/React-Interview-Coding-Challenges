@@ -16,6 +16,8 @@ import ParallelRequest from "./components/parallel-request/ParallelRequest";
 import SearchAutoComplete from "./components/search-autocomplete/SearchAutoComplete";
 import ImageLazyLoading from "./components/image-lazy-loading/ImageLazyLoading";
 import OptimisticLikeButton from "./components/optimistic-like-button/OptimisticLikeButton";
+import UseMemoExample from "./components/useMemo-example/UseMemoExample";
+import UseCallbackSearchExample from "./components/useCallback-example/useCallbackExample";
 
 const ProductList = lazy(() => import("./components/product-list/ProductList"));
 
@@ -59,6 +61,8 @@ function App() {
         <Route path="/searchAutocomplete" element={<SearchAutoComplete />} />
         <Route path="/imageLazyloading" element={<ImageLazyLoading />} />
         <Route path="/optimisticUI" element={<OptimisticLikeButton />} />
+        <Route path="/testUseMemo" element={<UseMemoExample />} />
+        <Route path="/testUseCallback" element={<UseCallbackSearchExample />} />
       </Routes>
     </>
   );
