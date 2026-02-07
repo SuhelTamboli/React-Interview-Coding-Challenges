@@ -18,6 +18,7 @@ import ImageLazyLoading from "./components/image-lazy-loading/ImageLazyLoading";
 import OptimisticLikeButton from "./components/optimistic-like-button/OptimisticLikeButton";
 import UseMemoExample from "./components/useMemo-example/UseMemoExample";
 import UseCallbackSearchExample from "./components/useCallback-example/useCallbackExample";
+import Accordion from "./components/accordion/Accordion";
 
 const ProductList = lazy(() => import("./components/product-list/ProductList"));
 
@@ -63,6 +64,7 @@ function App() {
         <Route path="/optimisticUI" element={<OptimisticLikeButton />} />
         <Route path="/testUseMemo" element={<UseMemoExample />} />
         <Route path="/testUseCallback" element={<UseCallbackSearchExample />} />
+        <Route path="/accordion" element={<Accordion />} />
       </Routes>
     </>
   );

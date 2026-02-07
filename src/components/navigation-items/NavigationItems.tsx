@@ -66,6 +66,10 @@ export default function NavigationItems() {
       name: "Image lazy loading",
       link: "/imageLazyloading",
     },
+    {
+      name: "Accordion Example",
+      link: "/accordion",
+    },
 
     //TODO
 
